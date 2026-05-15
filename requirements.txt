@@ -1,0 +1,19 @@
+# Core
+streamlit>=1.32.0
+opencv-python>=4.9.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Emotion Detection (choose one or both)
+fer>=22.5.1
+tensorflow>=2.13.0         # Required by FER
+deepface>=0.0.90           # Alternative / complementary model
+
+# Image processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Utilities
+tqdm>=4.65.0

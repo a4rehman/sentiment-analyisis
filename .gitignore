@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Data (keep structure, ignore large files)
+data/snapshots/*.jpg
+data/snapshots/*.png
+
+# Reports (optional – keep if you want to track them)
+reports/*.csv
+reports/*.txt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
